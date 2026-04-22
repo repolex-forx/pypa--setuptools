@@ -1,0 +1,41 @@
+[2026-04-22T16:31:50Z] === ENRICH ITERATION 2 START | repo=pypa/setuptools sha=5a138766 ===
+[2026-04-22T16:31:50Z] [iter=2] PHASE START: enrich repo=pypa/setuptools sha=5a138766 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5a138766-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5.nq.gz
+[2026-04-22T16:32:27Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-22T16:32:57Z] [iter=2] AST store loaded triples=3508119 load_secs=29 mem_mb=953 MB
+[2026-04-22T16:32:57Z] [iter=2] Step 2: Finding LSP targets mem_mb=953 MB
+[2026-04-22T16:33:04Z] [iter=2] LSP targets found call_sites=19717 imports=2021 extends=257 implements=0 secs=7
+[2026-04-22T16:33:09Z] [iter=2] Loaded checkpoint partial graph triples=111469
+[2026-04-22T16:33:15Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=953 MB
+[2026-04-22T16:33:35Z] [iter=2] Position index built positions=247329 nodes_with_types=321342 secs=20 mem_mb=967 MB
+[2026-04-22T16:33:35Z] [iter=2] Step 3: Starting LSP resolution mem_mb=967 MB already_completed_types=[] already_completed_files=199
+[2026-04-22T16:33:35Z] [iter=2] Resolving target type target_type=call_site count=19717
+[2026-04-22T16:33:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=0 resolved=0 errors=0 current=setuptools/command/install_scripts.py
+[2026-04-22T16:34:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=2 resolved=22 errors=32 current=setuptools/_distutils/tests/support.py
+[2026-04-22T16:34:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=4 resolved=50 errors=53 current=setuptools/_distutils/spawn.py
+[2026-04-22T16:35:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=9 resolved=98 errors=79 current=setuptools/_distutils/command/clean.py
+[2026-04-22T16:36:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=11 resolved=125 errors=103 current=setuptools/windows_support.py
+[2026-04-22T16:37:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=16 resolved=182 errors=146 current=setuptools/tests/test_archive_util.py
+[2026-04-22T16:37:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=19 resolved=218 errors=169 current=setuptools/_reqs.py
+[2026-04-22T16:38:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=22 resolved=233 errors=209 current=setuptools/_vendor/jaraco/text/layouts.py
+[2026-04-22T16:39:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=25 resolved=247 errors=234 current=setuptools/_distutils/compat/py39.py
+[2026-04-22T16:39:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=30 resolved=285 errors=258 current=setuptools/_distutils/command/_framework_compat.py
+[2026-04-22T16:40:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.0 files_done=33 resolved=310 errors=302 current=setuptools/command/setopt.py
+[2026-04-22T16:41:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=34 resolved=317 errors=335 current=conftest.py
+[2026-04-22T16:42:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=37 resolved=329 errors=365 current=setuptools/_distutils/dep_util.py
+[2026-04-22T16:43:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=43 resolved=347 errors=400 current=setuptools/tests/test_unicode_utils.py
+[2026-04-22T16:43:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=47 resolved=360 errors=426 current=setup.py
+[2026-04-22T16:44:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=53 resolved=383 errors=448 current=setuptools/_distutils/command/install_data.py
+[2026-04-22T16:44:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=56 resolved=388 errors=470 current=setuptools/_distutils/tests/test_bdist.py
+[2026-04-22T16:45:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=66 resolved=406 errors=491 current=setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py
+[2026-04-22T16:45:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=77 resolved=435 errors=512 current=setuptools/_vendor/jaraco/text/to-dvorak.py
+[2026-04-22T16:46:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=97 resolved=485 errors=549 current=setuptools/_distutils/tests/xxmodule-3.8.c
+[2026-04-22T16:47:35Z] [iter=2] Target type resolved target_type=call_site resolved=485 errors=587 secs=840 mem_mb=980 MB
+[2026-04-22T16:47:35Z] [iter=2] Resolving target type target_type=import_statement count=2021
+[2026-04-22T16:47:36Z] [iter=2] HEARTBEAT target_type=import_statement elapsed_min=15.8 files_done=0 resolved=0 errors=0 current=setuptools/_vendor/wheel/bdist_wheel.py
+[2026-04-22T16:47:39Z] [iter=2] Target type resolved target_type=import_statement resolved=302 errors=0 secs=4 mem_mb=980 MB
+[2026-04-22T16:47:39Z] [iter=2] Resolving target type target_type=extends_clause count=257
+[2026-04-22T16:47:41Z] [iter=2] Target type resolved target_type=extends_clause resolved=52 errors=0 secs=1 mem_mb=980 MB
+[2026-04-22T16:48:00Z] [iter=2] Step 5: Writing final enrichment file triples=182047
+[2026-04-22T16:48:04Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5.nq.gz size_kb=4043
+[2026-04-22T16:48:04Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-04-22T16:48:04Z] [iter=2] PHASE END: enrich elapsed_s=974 elapsed_min=16.2 total_triples=182047
