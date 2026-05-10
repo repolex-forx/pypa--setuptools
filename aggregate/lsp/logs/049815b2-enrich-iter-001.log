@@ -1,0 +1,146 @@
+[2026-05-10T09:50:49Z] === ENRICH ITERATION 1 START | repo=pypa/setuptools sha=049815b2 ===
+[2026-05-10T09:50:49Z] [iter=1] PHASE START: enrich repo=pypa/setuptools sha=049815b2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/049815b2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/049815b259805879f2fd60987f1d9e0d39c9dc96.nq.gz
+[2026-05-10T09:51:25Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-05-10T09:51:47Z] [iter=1] AST store loaded triples=2695096 load_secs=21 mem_mb=918 MB
+[2026-05-10T09:51:47Z] [iter=1] Step 2: Finding LSP targets mem_mb=918 MB
+[2026-05-10T09:51:54Z] [iter=1] LSP targets found call_sites=16954 imports=1880 extends=245 implements=0 secs=7
+[2026-05-10T09:52:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=918 MB
+[2026-05-10T09:52:18Z] [iter=1] Position index built positions=188220 nodes_with_types=242795 secs=18 mem_mb=918 MB
+[2026-05-10T09:52:18Z] [iter=1] Step 3: Starting LSP resolution mem_mb=918 MB already_completed_types=[] already_completed_files=0
+[2026-05-10T09:52:18Z] [iter=1] Resolving target type target_type=call_site count=16954
+[2026-05-10T09:52:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=0 resolved=0 errors=0 current=setuptools/command/bdist_egg.py
+[2026-05-10T09:54:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=1 resolved=80 errors=95 current=setuptools/_scripts.py
+[2026-05-10T09:54:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=2 resolved=118 errors=142 current=setuptools/_distutils/tests/test_build_py.py
+[2026-05-10T09:55:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=3 resolved=143 errors=180 current=setuptools/_vendor/packaging/metadata.py
+[2026-05-10T09:57:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=4 resolved=197 errors=309 current=setuptools/config/expand.py
+[2026-05-10T09:58:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=5 resolved=260 errors=362 current=setuptools/tests/test_wheel.py
+[2026-05-10T10:00:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=6 resolved=316 errors=439 current=setuptools/tests/config/test_setupcfg.py
+[2026-05-10T10:04:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=7 resolved=343 errors=645 current=setuptools/_vendor/backports/tarfile/__init__.py
+[2026-05-10T10:12:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=8 resolved=619 errors=1136 current=setuptools/_entry_points.py
+[2026-05-10T10:13:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=10 resolved=639 errors=1172 current=setuptools/_vendor/packaging/_tokenizer.py
+[2026-05-10T10:15:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=12 resolved=729 errors=1304 current=setuptools/_vendor/importlib_metadata/_itertools.py
+[2026-05-10T10:18:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=14 resolved=807 errors=1458 current=setuptools/_core_metadata.py
+[2026-05-10T10:20:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.5 files_done=15 resolved=842 errors=1544 current=setuptools/_vendor/packaging/specifiers.py
+[2026-05-10T10:21:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=16 resolved=903 errors=1627 current=setuptools/build_meta.py
+[2026-05-10T10:22:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.9 files_done=17 resolved=954 errors=1678 current=setuptools/_distutils/command/build_ext.py
+[2026-05-10T10:25:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=18 resolved=1002 errors=1806 current=setuptools/tests/test_manifest.py
+[2026-05-10T10:28:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.9 files_done=19 resolved=1051 errors=2012 current=setuptools/_distutils/compilers/C/unix.py
+[2026-05-10T10:29:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.8 files_done=20 resolved=1072 errors=2065 current=setuptools/_vendor/wheel/_commands/pack.py
+[2026-05-10T10:32:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.6 files_done=22 resolved=1201 errors=2221 current=setuptools/command/egg_info.py
+[2026-05-10T10:34:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.8 files_done=23 resolved=1267 errors=2338 current=_distutils_hack/__init__.py
+[2026-05-10T10:36:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.7 files_done=25 resolved=1368 errors=2449 current=setuptools/_vendor/more_itertools/more.py
+[2026-05-10T10:40:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.7 files_done=26 resolved=1990 errors=2666 current=setuptools/_vendor/packaging/utils.py
+[2026-05-10T10:41:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.3 files_done=27 resolved=2003 errors=2697 current=setuptools/_vendor/more_itertools/recipes.py
+[2026-05-10T10:41:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.1 files_done=28 resolved=2212 errors=2745 current=setuptools/_vendor/jaraco/text/__init__.py
+[2026-05-10T10:42:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.1 files_done=29 resolved=2256 errors=2799 current=setuptools/tests/test_core_metadata.py
+[2026-05-10T10:44:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.7 files_done=30 resolved=2303 errors=2885 current=setuptools/_distutils/command/build_clib.py
+[2026-05-10T10:47:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.1 files_done=32 resolved=2433 errors=3077 current=setuptools/_distutils/command/install.py
+[2026-05-10T10:49:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.9 files_done=33 resolved=2484 errors=3175 current=setuptools/_vendor/platformdirs/android.py
+[2026-05-10T10:50:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.5 files_done=34 resolved=2498 errors=3206 current=setuptools/tests/integration/test_pip_install_sdist.py
+[2026-05-10T10:51:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.2 files_done=36 resolved=2581 errors=3301 current=setuptools/_vendor/importlib_metadata/compat/py39.py
+[2026-05-10T10:55:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.9 files_done=39 resolved=2718 errors=3506 current=setuptools/msvc.py
+[2026-05-10T10:57:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.6 files_done=40 resolved=2843 errors=3603 current=setuptools/_vendor/wheel/wheelfile.py
+[2026-05-10T10:58:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.3 files_done=41 resolved=2884 errors=3642 current=setuptools/_vendor/wheel/_commands/tags.py
+[2026-05-10T10:58:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.8 files_done=42 resolved=2907 errors=3670 current=setuptools/tests/config/test_expand.py
+[2026-05-10T10:59:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.8 files_done=43 resolved=2925 errors=3722 current=setuptools/tests/test_build_py.py
+[2026-05-10T11:00:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.1 files_done=44 resolved=2967 errors=3793 current=setuptools/tests/test_install_scripts.py
+[2026-05-10T11:02:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.4 files_done=46 resolved=3000 errors=3867 current=setuptools/_distutils/tests/test_file_util.py
+[2026-05-10T11:04:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.5 files_done=48 resolved=3077 errors=3982 current=tools/vendored.py
+[2026-05-10T11:07:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.3 files_done=52 resolved=3236 errors=4138 current=setuptools/_distutils/compilers/C/cygwin.py
+[2026-05-10T11:07:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.8 files_done=53 resolved=3261 errors=4166 current=setuptools/_vendor/packaging/markers.py
+[2026-05-10T11:08:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.5 files_done=54 resolved=3298 errors=4202 current=setuptools/_distutils/tests/test_cmd.py
+[2026-05-10T11:10:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.6 files_done=56 resolved=3337 errors=4319 current=setuptools/_distutils/tests/test_archive_util.py
+[2026-05-10T11:11:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.1 files_done=57 resolved=3398 errors=4404 current=setuptools/_distutils/compilers/C/base.py
+[2026-05-10T11:13:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.4 files_done=58 resolved=3483 errors=4474 current=setuptools/tests/test_virtualenv.py
+[2026-05-10T11:15:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.5 files_done=60 resolved=3492 errors=4588 current=setuptools/tests/fixtures.py
+[2026-05-10T11:16:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.5 files_done=61 resolved=3539 errors=4641 current=setuptools/command/build_ext.py
+[2026-05-10T11:17:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.0 files_done=62 resolved=3589 errors=4726 current=setuptools/_vendor/zipp/glob.py
+[2026-05-10T11:19:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.6 files_done=64 resolved=3663 errors=4812 current=setuptools/_distutils/tests/test_dist.py
+[2026-05-10T11:21:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.6 files_done=65 resolved=3704 errors=4922 current=setuptools/_vendor/packaging/pylock.py
+[2026-05-10T11:23:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.6 files_done=66 resolved=3792 errors=5030 current=setuptools/tests/config/test_pyprojecttoml_dynamic_deps.py
+[2026-05-10T11:25:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.4 files_done=68 resolved=3863 errors=5130 current=setuptools/_distutils/tests/test_bdist_rpm.py
+[2026-05-10T11:27:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.6 files_done=70 resolved=3915 errors=5251 current=setuptools/_distutils/tests/test_sysconfig.py
+[2026-05-10T11:28:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.4 files_done=71 resolved=3936 errors=5298 current=setuptools/depends.py
+[2026-05-10T11:31:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.6 files_done=73 resolved=4054 errors=5472 current=setuptools/_distutils/compilers/C/zos.py
+[2026-05-10T11:32:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.0 files_done=75 resolved=4081 errors=5546 current=setuptools/_vendor/jaraco/context/__init__.py
+[2026-05-10T11:33:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.9 files_done=77 resolved=4128 errors=5597 current=setuptools/command/build_py.py
+[2026-05-10T11:34:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=103.9 files_done=78 resolved=4187 errors=5654 current=setuptools/__init__.py
+[2026-05-10T11:38:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.1 files_done=80 resolved=4305 errors=5879 current=setuptools/_distutils/text_file.py
+[2026-05-10T11:39:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.7 files_done=82 resolved=4332 errors=5913 current=setuptools/tests/test_bdist_wheel.py
+[2026-05-10T11:41:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.0 files_done=83 resolved=4420 errors=6039 current=setuptools/archive_util.py
+[2026-05-10T11:42:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.6 files_done=84 resolved=4440 errors=6071 current=setuptools/_vendor/tomli/_parser.py
+[2026-05-10T11:45:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.2 files_done=85 resolved=4485 errors=6218 current=setuptools/_vendor/zipp/__init__.py
+[2026-05-10T11:45:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.1 files_done=86 resolved=4534 errors=6267 current=setuptools/command/bdist_wheel.py
+[2026-05-10T11:47:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.8 files_done=87 resolved=4616 errors=6359 current=setuptools/_distutils/compilers/C/tests/test_base.py
+[2026-05-10T11:48:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.6 files_done=89 resolved=4634 errors=6405 current=setuptools/_vendor/autocommand/autoparse.py
+[2026-05-10T11:49:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.2 files_done=91 resolved=4668 errors=6439 current=setuptools/tests/test_dist_info.py
+[2026-05-10T11:49:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.7 files_done=92 resolved=4699 errors=6468 current=setuptools/_distutils/tests/test_filelist.py
+[2026-05-10T11:52:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.2 files_done=93 resolved=4709 errors=6605 current=setuptools/command/dist_info.py
+[2026-05-10T11:52:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.7 files_done=95 resolved=4729 errors=6633 current=setuptools/_distutils/command/check.py
+[2026-05-10T11:53:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.1 files_done=97 resolved=4773 errors=6708 current=setuptools/tests/test_dist.py
+[2026-05-10T11:54:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.0 files_done=98 resolved=4797 errors=6757 current=setuptools/command/setopt.py
+[2026-05-10T11:55:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.5 files_done=99 resolved=4804 errors=6790 current=setuptools/_vendor/importlib_metadata/_adapters.py
+[2026-05-10T11:55:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=102 resolved=4853 errors=6821 current=setuptools/_vendor/jaraco/text/show-newlines.py
+[2026-05-10T11:56:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.0 files_done=104 resolved=4884 errors=6869 current=setuptools/tests/test_archive_util.py
+[2026-05-10T11:58:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.4 files_done=106 resolved=4901 errors=6948 current=setuptools/_distutils/tests/test_install_headers.py
+[2026-05-10T11:59:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.3 files_done=109 resolved=4959 errors=6999 current=setuptools/_distutils/command/install_lib.py
+[2026-05-10T11:59:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.9 files_done=110 resolved=4970 errors=7032 current=setuptools/tests/test_bdist_egg.py
+[2026-05-10T12:00:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.9 files_done=112 resolved=5011 errors=7086 current=setuptools/_distutils/compilers/C/tests/test_unix.py
+[2026-05-10T12:01:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.9 files_done=113 resolved=5028 errors=7145 current=setuptools/_vendor/packaging/version.py
+[2026-05-10T12:02:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.7 files_done=114 resolved=5078 errors=7189 current=setuptools/_distutils/command/sdist.py
+[2026-05-10T12:04:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.4 files_done=115 resolved=5104 errors=7282 current=setuptools/_distutils/tests/test_modified.py
+[2026-05-10T12:04:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.0 files_done=116 resolved=5125 errors=7313 current=setuptools/_vendor/platformdirs/unix.py
+[2026-05-10T12:05:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.7 files_done=117 resolved=5151 errors=7353 current=setuptools/_distutils/fancy_getopt.py
+[2026-05-10T12:06:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.6 files_done=118 resolved=5179 errors=7401 current=setuptools/tests/test_distutils_adoption.py
+[2026-05-10T12:07:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.6 files_done=120 resolved=5217 errors=7458 current=setuptools/_distutils/dir_util.py
+[2026-05-10T12:08:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.8 files_done=122 resolved=5322 errors=7526 current=setuptools/command/install_lib.py
+[2026-05-10T12:09:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.6 files_done=124 resolved=5345 errors=7571 current=setuptools/_distutils/command/build_py.py
+[2026-05-10T12:10:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.7 files_done=125 resolved=5382 errors=7632 current=setuptools/_distutils/tests/test_build_scripts.py
+[2026-05-10T12:12:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.3 files_done=127 resolved=5452 errors=7718 current=setuptools/_distutils/compilers/C/tests/test_msvc.py
+[2026-05-10T12:12:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.0 files_done=129 resolved=5496 errors=7756 current=setuptools/_vendor/packaging/_musllinux.py
+[2026-05-10T12:13:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.6 files_done=133 resolved=5526 errors=7794 current=setuptools/_distutils/command/bdist_rpm.py
+[2026-05-10T12:15:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.7 files_done=134 resolved=5557 errors=7910 current=setuptools/_vendor/wheel/_metadata.py
+[2026-05-10T12:18:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.9 files_done=136 resolved=5672 errors=8082 current=setuptools/tests/environment.py
+[2026-05-10T12:19:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.4 files_done=139 resolved=5702 errors=8112 current=setuptools/tests/contexts.py
+[2026-05-10T12:19:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.0 files_done=142 resolved=5721 errors=8142 current=setuptools/monkey.py
+[2026-05-10T12:20:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.2 files_done=144 resolved=5769 errors=8209 current=setuptools/command/rotate.py
+[2026-05-10T12:21:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.7 files_done=146 resolved=5780 errors=8240 current=setuptools/_distutils/tests/test_config_cmd.py
+[2026-05-10T12:22:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.7 files_done=149 resolved=5812 errors=8292 current=setuptools/_distutils/tests/test_dir_util.py
+[2026-05-10T12:23:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.3 files_done=150 resolved=5826 errors=8325 current=setuptools/_distutils/util.py
+[2026-05-10T12:23:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.1 files_done=151 resolved=5869 errors=8374 current=setuptools/_distutils/command/build.py
+[2026-05-10T12:24:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.9 files_done=153 resolved=5882 errors=8419 current=setuptools/_distutils/command/bdist.py
+[2026-05-10T12:25:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.1 files_done=156 resolved=5900 errors=8482 current=setuptools/_distutils/file_util.py
+[2026-05-10T12:26:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.6 files_done=158 resolved=5935 errors=8512 current=setuptools/compat/py311.py
+[2026-05-10T12:27:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.3 files_done=163 resolved=5966 errors=8548 current=setuptools/_distutils/tests/test_bdist_dumb.py
+[2026-05-10T12:27:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.0 files_done=165 resolved=6019 errors=8587 current=setuptools/_normalization.py
+[2026-05-10T12:28:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.7 files_done=168 resolved=6057 errors=8627 current=setuptools/_vendor/importlib_metadata/_text.py
+[2026-05-10T12:29:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.3 files_done=170 resolved=6097 errors=8658 current=setuptools/tests/test_logging.py
+[2026-05-10T12:29:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.9 files_done=172 resolved=6109 errors=8692 current=setuptools/_distutils/tests/test_build_clib.py
+[2026-05-10T12:30:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.5 files_done=173 resolved=6115 errors=8724 current=setuptools/tests/test_scripts.py
+[2026-05-10T12:30:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.0 files_done=176 resolved=6139 errors=8755 current=setuptools/_distutils/command/clean.py
+[2026-05-10T12:31:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.6 files_done=179 resolved=6173 errors=8789 current=setuptools/extension.py
+[2026-05-10T12:32:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=161.3 files_done=183 resolved=6221 errors=8825 current=setuptools/_distutils/tests/test_install_lib.py
+[2026-05-10T12:33:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.2 files_done=187 resolved=6266 errors=8877 current=setuptools/_distutils/extension.py
+[2026-05-10T12:33:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.8 files_done=191 resolved=6292 errors=8907 current=setuptools/_distutils/cmd.py
+[2026-05-10T12:34:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.4 files_done=192 resolved=6322 errors=8942 current=setuptools/_vendor/packaging/_elffile.py
+[2026-05-10T12:34:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.1 files_done=195 resolved=6359 errors=8980 current=tools/finalize.py
+[2026-05-10T12:35:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.6 files_done=198 resolved=6388 errors=9010 current=setuptools/_itertools.py
+[2026-05-10T12:36:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=165.2 files_done=201 resolved=6407 errors=9042 current=setuptools/_vendor/packaging/_structures.py
+[2026-05-10T12:36:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=165.8 files_done=206 resolved=6460 errors=9074 current=setuptools/_distutils/command/install_data.py
+[2026-05-10T12:37:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.3 files_done=210 resolved=6480 errors=9103 current=setuptools/_vendor/jaraco/text/to-qwerty.py
+[2026-05-10T12:37:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.8 files_done=215 resolved=6489 errors=9133 current=setuptools/_path.py
+[2026-05-10T12:38:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.5 files_done=221 resolved=6541 errors=9169 current=setuptools/_reqs.py
+[2026-05-10T12:38:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.1 files_done=230 resolved=6580 errors=9206 current=setuptools/tests/text.py
+[2026-05-10T12:39:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.8 files_done=240 resolved=6612 errors=9243 current=setuptools/tests/test_find_py_modules.py
+[2026-05-10T12:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.3 files_done=246 resolved=6642 errors=9270 current=setuptools/_vendor/importlib_metadata/compat/py311.py
+[2026-05-10T12:40:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.8 files_done=260 resolved=6676 errors=9298 current=setuptools/_distutils/unixccompiler.py
+[2026-05-10T12:41:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.6 files_done=282 resolved=6723 errors=9337 current=setuptools/_distutils/tests/xxmodule-3.8.c
+[2026-05-10T12:42:05Z] [iter=1] Target type resolved target_type=call_site resolved=6723 errors=9375 secs=10187 mem_mb=918 MB
+[2026-05-10T12:42:05Z] [iter=1] Resolving target type target_type=import_statement count=1880
+[2026-05-10T12:42:06Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=171.3 files_done=0 resolved=0 errors=0 current=setuptools/_distutils/tests/test_install_lib.py
+[2026-05-10T12:42:19Z] [iter=1] Target type resolved target_type=import_statement resolved=1733 errors=0 secs=13 mem_mb=918 MB
+[2026-05-10T12:42:19Z] [iter=1] Resolving target type target_type=extends_clause count=245
+[2026-05-10T12:42:23Z] [iter=1] Target type resolved target_type=extends_clause resolved=245 errors=0 secs=4 mem_mb=918 MB
+[2026-05-10T12:42:39Z] [iter=1] Step 5: Writing final enrichment file triples=169586
+[2026-05-10T12:42:43Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/049815b259805879f2fd60987f1d9e0d39c9dc96.nq.gz size_kb=3772
+[2026-05-10T12:42:43Z] [iter=1] PHASE END: enrich elapsed_s=10313 elapsed_min=171.9 total_triples=169586
